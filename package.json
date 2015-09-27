@@ -1,0 +1,24 @@
+{
+  "name": "slack-lambda-weather",
+  "version": "0.1.0",
+  "description": "Serverless slack integration using AWS Lambda and Slash Commands",
+  "main": "lambda.js",
+  "scripts": {
+    "build": "./build.sh",
+    "create": "./provisioning/awsCreate.sh slackWeather",
+    "deploy": "./provisioning/awsUpdate.sh slackWeather",
+    "invoke": "./provisioning/awsInvoke.sh slackWeather",
+    "localInvoke": "node ./provisioning/localInvoke.js",
+    "test": "jasmine",
+    "test:watch": "watch jasmine ./"
+  },
+  "author": "Ryan Ray <ryan@ryanray.me>",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "bluebird": "~2.10.1",
+    "request": "~2.64.0"
+  },
+  "devDependencies": {
+    "proxyquire": "~1.7.2"
+  }
+}
