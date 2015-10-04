@@ -10,7 +10,7 @@ aws lambda create-function \
     --runtime nodejs \
     --role "$2" \
     --handler lambda.handler \
-    --description "aws-lambda-starter" \
+    --description "Slack Weather" \
     --timeout 3 \
     --memory-size 128 \
     --zip-file fileb://$(pwd)/dist/lambda.zip

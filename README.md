@@ -1,5 +1,5 @@
 # slack-lambda-weather
-Demonstrate Serverless Slack Slash Command Integration using AWS Lambda and AWS API Gateway
+Demonstrate Serverless Slack Slash Command Integration using AWS Lambda and AWS API Gateway. See [this blog post](http://www.ryanray.me/serverless-slack-integrations) for the full write up.
 
 ## Getting Started
 This project was built with the [aws-lambda-starter](https://github.com/ryanray/aws-lambda-starter). See docs for more info on commands.
@@ -26,3 +26,6 @@ Before you can create your Lambda you need to create an execution role. If you d
 
 ## Contributing
 Improvements are welcome! Just fork, push your changes to a new branch, and create a pull request!
+
+## TODO
+* Fix the tests
